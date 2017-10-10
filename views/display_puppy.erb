@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  </head>
+  <body>
+    <% puppy = Puppy.new(params[:name], params[:breed], params[:age]) %>
+    <h1><%="Puppy Name:\n#{puppy.name}"%></h1>
+    <h1><%="Puppy Breed:\n#{puppy.breed}"%></h1>
+    <h1><%="Puppy Age:\n#{puppy.age}"%></h1>
+
+  </body>
+</html>
